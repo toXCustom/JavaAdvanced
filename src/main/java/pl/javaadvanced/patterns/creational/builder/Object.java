@@ -36,6 +36,7 @@ public class Object {
 		private String par1;
 		private int par2;
 		private boolean par3;
+		private int par4;
 
 		public ObjectBuilder(String name, String par1, int par2) {
 			this.name = name;
@@ -45,6 +46,11 @@ public class Object {
 
 		public ObjectBuilder setPar3(boolean par3) {
 			this.par3 = par3;
+			return this;
+		}
+
+		public ObjectBuilder setPar4(int par4) {
+			this.par4 = par4;
 			return this;
 		}
 

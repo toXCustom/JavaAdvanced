@@ -4,6 +4,7 @@ public class Test {
 
     public static void main(String[] args) {
 
+        System.out.println("Main");
         EagerSingleton.getInstance();
 
         //EagerSingleton singleton = new EagerSingleton(); //private konstruktor i nie możemy się do niego dostać
