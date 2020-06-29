@@ -1,0 +1,3 @@
+0;first column;second column
+1;Marek;Babiarz
+2;Przemysław;Grad

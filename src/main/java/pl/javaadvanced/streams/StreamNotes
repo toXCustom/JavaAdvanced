@@ -1,0 +1,27 @@
+1. Strumien nie jest strukturą danych, przechowuje reference (adresy) obiektów
+2. Umożliwia zwięzłe operacje na elementach kolekcji (tabelach, setach, listach, mapach)
+3. Operacje na strumieniu nie modyfikują żródła danych ale zwracają wynik (albo void)
+
+4. PANTHA REI - strumienia nie można wykorzystać ponownie
+
+5. Strumienie są LAZY - czyli nie zawsze wszystkie operacjhe na wszystkich elementach strumienia będą wykonywanie
+   EAGER vs LAZY
+   EAGER - wczytanie / operacja OD RAZU
+   LAZU - eczytywanie / operacja NA ŻĄDANIE
+
+Operacje na strumieniach:
+1. Pośrednie
+   - filter 0 umożliwia filtrowanie (wybieranie) elementów według zadanego kryterium
+   - map - przekształcanie
+   - flatmap - spłaszcenie
+   - peek - podgląd
+   - distrinct - wybór wartości niepowtarzalnych
+   - sorted - sortowanie
+   - limit - wybór ilości elementów
+
+2. Końcowe
+   - forEach - wykona operację na każdym elemencie strumienia
+   - collect - zwrócenie kolekcji po przekształceniach
+   - findFirst - pierwszy element spełniający zadane kryterium
+   - findAny - dowolny element spełniające kryteria
+   - reduce - zwraca pojedyńczą wartość końcową strumienia
