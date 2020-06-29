@@ -10,5 +10,12 @@ public class BuilderDemo {
                 .setPar3(false)
                 .setPar4(2)
                 .build();
+
+        StringBuilder stringBuilder = new StringBuilder("aaaa")
+                .append(1)
+                .append("napis")
+                .append("aaaaa");
+
+        System.out.println(stringBuilder);
     }
 }

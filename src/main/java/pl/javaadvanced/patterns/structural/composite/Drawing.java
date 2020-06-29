@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Drawing implements Shape{
-
 	//collection of Shapes
 	private List<Shape> shapes = new ArrayList<Shape>();
 
