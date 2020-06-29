@@ -6,6 +6,8 @@ public class Test {
 
         EagerSingleton.getInstance();
 
+        //EagerSingleton singleton = new EagerSingleton(); //private konstruktor i nie możemy się do niego dostać
+
         EagerSingleton.getInstance();
 
 

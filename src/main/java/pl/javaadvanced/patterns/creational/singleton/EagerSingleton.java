@@ -2,7 +2,6 @@ package pl.javaadvanced.patterns.creational.singleton;
 
 
 public class EagerSingleton {
-
 	private static final EagerSingleton instance = new EagerSingleton();
 
 	private EagerSingleton(){
@@ -17,5 +16,4 @@ public class EagerSingleton {
 	public String getSth() {
 		return "Something";
 	}
-
 }

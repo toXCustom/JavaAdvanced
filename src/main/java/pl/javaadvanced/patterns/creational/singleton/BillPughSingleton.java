@@ -1,7 +1,6 @@
 package pl.javaadvanced.patterns.creational.singleton;
 
 public class BillPughSingleton {
-
 	private BillPughSingleton() {
 		System.out.println("Object initialisation");
 	}

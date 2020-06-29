@@ -1,7 +1,6 @@
 package pl.javaadvanced.patterns.creational.singleton;
 
 public class LazySingleton {
-
 	private static LazySingleton instance; //not final
 
 	private LazySingleton(){
@@ -14,5 +13,4 @@ public class LazySingleton {
 		}
 		return instance;
 	}
-
 }
